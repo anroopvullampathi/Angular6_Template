@@ -1,0 +1,17 @@
+/*--// client-- */
+
+.clients {
+    background: #f2f2f2;
+}
+
+.client-txt-color img {
+    border-radius: 100px;
+    border: 2px solid #000;
+}
+
+.client-txt-color p span {
+    font-size: 22px;
+    color: #096fdc;
+}
+
+/*--// clients-- */

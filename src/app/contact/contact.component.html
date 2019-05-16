@@ -1,0 +1,59 @@
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form name="form">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control"  name="firstName"  ngModel/>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control"  name="lastName" ngModel />
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control"  name="email" ngModel/>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control"  name="password" ngModel/>
+                        
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary" (click)="onSubmit(form)">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 img-thumbnail">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6330330225755!2d78.4245916152991!3d17.429389906178933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb912bcce9940d%3A0xb417e0ea1837410a!2sBillboards!5e0!3m2!1sen!2sin!4v1556020664324!5m2!1sen!2sin" width="540" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2>Striped Rows</h2>
+    <p>The .table-striped class adds zebra-stripes to a table:</p>            
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>Password</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{firstName}}</td>
+          <td>{{lastName}}</td>
+          <td>{{email}}</td>
+          <td>{{password}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

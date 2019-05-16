@@ -1,0 +1,66 @@
+/*-- price-- */
+
+.w3ls-bottom {
+    background: #fff;
+    box-shadow: 0 0 8px 0 rgba(189, 189, 189, 0.9);
+    text-align: center;
+    -moz-border-radius: 10px 10px 0px 0px;
+}
+
+.grid-one {
+    background: #096fdc;
+}
+
+.price-w3layouts-table h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.price-w3layouts-table span.sup {
+    font-size: 16px;
+    color: #565656;
+}
+
+.price-w3layouts-table span.number-price {
+    font-size: 32px;
+    color: #000;
+    font-weight: 600;
+}
+
+.price-list-txt ul li {
+    font-size: 14px;
+    color: #000;
+    padding-top: 11px;
+    display: block;
+}
+
+.price-grid-one ul li,
+.mid-text-info p {
+    color: #a9a9a9;
+}
+
+.price-images {
+    padding: 2.5em 2em;
+}
+
+.view-price a {
+    border-radius: 3px;
+    background: #e0e0e0;
+    color: #096fdc;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 1px;
+    outline: none;
+    border-radius: 0px;
+    background-color: rgba(208, 208, 208, 0.4);
+    font-size: 14px;
+    padding: 8px 18px;
+}
+
+.color-black a {
+    background: #000;
+    color: #fff;
+}
+
+/*--//price--*/

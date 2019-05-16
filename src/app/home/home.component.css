@@ -1,0 +1,64 @@
+/* banner */
+.headder-top {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    padding: 1em 1em;
+}
+
+.style-banner {
+    padding-top: 21em;
+}
+
+.style-banner p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.main-banner h4 {
+    color: #fff;
+    font-size: 4.5em;
+    font-weight: 600;
+    text-shadow: 2px -1px 4px #000;
+}
+
+.read-buttn a,
+.view-buttn a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 0px;
+    background-color: rgba(208, 208, 208, 0.4);
+    padding: 10px 33px;
+    border: 1px solid #ffffff;
+    opacity:0.8;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.read-buttn a {
+    margin-right: 15px;
+}
+
+.read-buttn a:hover,
+.view-buttn a:hover,
+.view-price a:hover {
+    opacity:1;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+/* //banner */
+
