@@ -40,19 +40,17 @@
     <p>The .table-striped class adds zebra-stripes to a table:</p>            
     <table class="table table-striped">
       <thead>
-        <tr>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Email</th>
-          <th>Password</th>
+        <tr >
+          <th *ngFor="let elt of hedding">{{elt}}</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>{{firstName}}</td>
-          <td>{{lastName}}</td>
-          <td>{{email}}</td>
-          <td>{{password}}</td>
+        <tr *ngFor="let data of empname">
+          <td><img src={{data.img}} alt="img"></td>
+          <td class="align-middle">{{data.fname | uppercase}}</td>
+          <td class="align-middle">{{data.lname | slice:0:4}}</td>
+          <td class="align-middle">{{data.email}}</td>
+          <td class="align-middle">{{data.num}}</td>
         </tr>
       </tbody>
     </table>
