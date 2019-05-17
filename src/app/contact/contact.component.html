@@ -47,10 +47,11 @@
       <tbody>
         <tr *ngFor="let data of empname">
           <td><img src={{data.img}} alt="img"></td>
-          <td class="align-middle">{{data.fname | uppercase}}</td>
+          <td class="align-middle" [style.color]= "'red'">{{data.fname | uppercase}}</td>
           <td class="align-middle">{{data.lname | slice:0:4}}</td>
           <td class="align-middle">{{data.email}}</td>
           <td class="align-middle">{{data.num}}</td>
+          <td class="align-middle">{{data.date}}</td>
         </tr>
       </tbody>
     </table>

@@ -6,7 +6,12 @@
           </p>
        </div>
        <div class="row gallery-info">
-          <div class="col-lg-6 col-md-6 col-sm-6 gallery-img-grid">
+            <div class="col-lg-6 col-md-6 col-sm-6 gallery-img-grid" *ngFor="let image of images">
+                    <div class="gallery-grids">
+                       <a href="#gal1"><img src={{image.img}} alt="img" class="img-fluid img-thumbnail"></a>
+                    </div>
+                 </div>
+          <!-- <div class="col-lg-6 col-md-6 col-sm-6 gallery-img-grid">
              <div class="gallery-grids">
                 <a href="#gal1"><img src="assets/img/bb1.jpg" alt="news image" class="img-fluid img-thumbnail"></a>
              </div>
@@ -45,7 +50,7 @@
              <div class="gallery-grids">
                 <a href="#gal7"><img src="assets/img/g11.jpg" alt="news image" class="img-fluid img-thumbnail"></a>
              </div>
-          </div>
+          </div> -->
        </div>
     </div>
  </section>
