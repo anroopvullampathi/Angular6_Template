@@ -1,3 +1,14 @@
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  </div>
+  
 <div class="jumbotron">
     <div class="container">
         <div class="row">
@@ -19,8 +30,8 @@
                         
                     </div>
                     <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" class="form-control"  name="password" ngModel/>
+                        <label for="Number">Number</label>
+                        <input type="Number" class="form-control"  name="Number" ngModel/>
                         
                     </div>
                     <div class="form-group">
@@ -48,10 +59,10 @@
         <tr *ngFor="let data of empname">
           <td><img src={{data.img}} alt="img"></td>
           <td class="align-middle" [style.color]= "'red'">{{data.fname | uppercase}}</td>
-          <td class="align-middle">{{data.lname | slice:0:4}}</td>
-          <td class="align-middle">{{data.email}}</td>
+          <td class="align-middle" [style.color]= "(data.lname == 'Vullampathi') ? 'orange' : 'black'">{{data.lname | slice:0:4}}</td>
+          <td class="align-middle" [style.color]= "(data.email == 'anroop@gmail.com') ? 'red' : 'black'">{{data.email}}</td>
           <td class="align-middle">{{data.num}}</td>
-          <td class="align-middle">{{data.date}}</td>
+          <td class="align-middle">{{today | date}}</td>
         </tr>
       </tbody>
     </table>
